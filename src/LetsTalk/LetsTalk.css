@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: "Montserrat", sans-serif;
+  background: var(--background);
+  background-image: url("LetsTalk_bg.png");
+  
+}
+:root{
+  --background:#002B29;
+  --text: #23B6AE;
+ --green: rgba(0, 43, 41, 1);
+ --light_green:rgba(1, 62, 59, 1);
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+ 
+}s
+.img-1{
+    
+    width: 817px;
+    height: 325px;
+    /* margin-top: 152px; */
+    margin-left: 24px;
+    border: 1.01px solid red;
+}
+.img-2{
+    width: 400px;
+    height: 400px;
+    margin-top: -120px;
+    margin-left: 81px;
+}
+.img-2 img{
+  width: 100%;
+  height: 100%;
+}
+.form-tag{
+    margin-top: 334px;
+}
+form {
+  transform: translateX(-100px);
+  background: white;
+  width: 380px;
+  height: 505px;
+  padding: 20px;
+  clip-path: polygon(11% 0, 100% 0, 100% 100%, 75% 100%, 0 100%, 0 10%);
+}
+.input_group {
+  display: flex;
+  flex-direction: column;
+}
+form p {
+  width: 75%;
+  margin-left: auto;
+  text-align: right;
+}
+form input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #002B29;
+}
+form input:focus {
+  background: red;
+  /* border: none; */
+  border: 2px solid red;
+}
+textarea{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #002B29;
+}
+button{
+  width: 100%;
+  background: var(--light_green);
+  border: none;
+  padding: 10px;
+  color: white;
+}
